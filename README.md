@@ -1,4 +1,6 @@
 # Breast-Cancer-Survival-Prediction
+We used time-to-event survival prediction models including `Nnet-survival`, `DeepHit`, `Cox-Time` and `MLTR` from Pycox package :https://github.com/havakv/pycox to predict breast cancer survival data. we developed the models with hyperparameter grid search and by labaling breast cancer data in four molecular subtypes, the survival probabilities were predicted in each subtypes. then we figure the Kaplan-Meyer curve for each subtype in 10 time intervals to analyze the patterns of survival probabilities in each subtype.
+
 ## Installing Requirements
 ```
 pip install -r requirements.txt
