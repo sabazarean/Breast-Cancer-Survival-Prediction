@@ -19,3 +19,6 @@ If the mentioned line is as follows:
 if duration.dtype is not self.durations.dtype:
 ```
 You should set `n_jobs` to 1, or you can open the file `pycox/preprocessing/discretization.py` and change the line to `if duration.dtype != self.durations.dtype:` and increase the value of `n_jobs`
+## Data Access
+
+unfortunately due to the cancer research center policies and guidelines data are not aloowed to have acess for public.for data access request please visit https://crc.sbmu.ac.ir/ 
